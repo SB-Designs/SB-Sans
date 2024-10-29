@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "SB Sans";
+  src: url("https://cdn.glitch.global/ac72b3f4-2ef3-492e-a4a7-28651042abd4/SB%20Sans.ttf?v=1728230995065") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Global Styling with primary color */
+body {
+  font-family: "London Tube", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Logo Styling */
+.logo {
+  margin-bottom: 20px;
+}
+
+.logo-circle {
+  width: 150px; /* Size of the logo */
+  height: 150px; /* Same height for a perfect circle */
+  border-radius: 50%; /* This makes it circular */
+  object-fit: cover; /* Makes sure the image fits within the circle */
+  border: 5px solid #6950a1; /* Adds a border in the main color */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #6950a1; /* Main color for headings */
+}
+
+.font-tester {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-family: "SB Sans", sans-serif;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.download-section {
+  margin-top: 20px;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6950a1; /* Main color for buttons */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "London Tube", sans-serif;
+  transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #523f80;
+}
+
+/* Footer Section */
+footer {
+  background-color: #6950a1; /* Main footer background color */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.footer-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #6950a1;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "London Tube", sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-btn:hover {
+  background-color: #523f80;
+  color: #fff;
+}
