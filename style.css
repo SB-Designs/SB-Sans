@@ -1,6 +1,6 @@
 @font-face {
   font-family: "SB Sans";
-  src: url("https://cdn.glitch.global/ac72b3f4-2ef3-492e-a4a7-28651042abd4/SB%20Sans.ttf?v=1728230995065") format("truetype");
+  src: url("/SBSans-Regular.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
